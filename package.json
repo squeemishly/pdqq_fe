@@ -1,23 +1,14 @@
 {
-  "name": "quantified-self-starter-kit",
+  "name": "pretty-darn-quick-queue",
   "version": "1.0.0",
-  "description": "Starter kit for Turing School's BEE M4 Quantified Self Project",
+  "description": "A Pretty Darn Quick Queue",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "./node_modules/webpack/bin/webpack.js",
     "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/turingschool-examples/game-time-starter-kit-FEm1.git"
-  },
-  "author": "Turing School of Software and Design - Nate Allen",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/turingschool-examples/quantified-self-starter-kit/issues"
-  },
-  "homepage": "https://github.com/turingschool-examples/quantified-self-starter-kit#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.18.2",
